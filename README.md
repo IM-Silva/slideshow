@@ -1,2 +1,2 @@
 # slideshow
-Fiz uma animação de slides com cinco imagens. HTML e CSS.
+Essa é uma página de animação de slides com cinco imagens. HTML e CSS.
