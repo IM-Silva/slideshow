@@ -37,7 +37,7 @@ body {
 }
 
 .bar:hover {
-    background-color: white;
+    background-color: #a6a6a6;
 }
 
 input {
@@ -78,4 +78,22 @@ input {
 
 #slide5:checked ~ .s1 {
     margin-left: -80%;
+}
+
+@media only screen and (max-width: 960px) {
+  .content {
+    width: 90%;
+    height: 70%;
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .slide img {
+    width: 120%;
+    height: 100%;
+  }
+  .bar {
+    width: 35px;
+  }
 }
